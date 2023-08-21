@@ -33,6 +33,7 @@ static PYTHON_IMPORTS_REPLACEMENT: phf::Map<&'static str, &'static str> = phf_ma
     "PIL" => "Pillow",
     "googleapiclient" => "google-api-python-client",
     "dateutil" => "python-dateutil",
+    "mailparser" => "mail-parser",
 };
 
 fn replace_import(x: String) -> String {
